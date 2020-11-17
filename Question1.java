@@ -1,11 +1,19 @@
-/* Activity 1.2 - Question 1 */
-
+imprt jave.util.Scanner;
 
 
 class Question1 {
     public static void main(String[] args) {
 
-        /* Write your code here */
+      Scanner scan = new Scanner(System.in);
+
+      String name;
+
+      System.out.println("what is your name?");
+
+      name = scan.nextLine();
+
+
+      System.out.println("Hi" + name + "nice to see you.");
 
     }
 }
